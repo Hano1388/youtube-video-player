@@ -10,13 +10,3 @@ npm install
 npm start
 ```
  - Your app will start running on [localhost:3000](https://localhost:3000)
-
-```mermaid
-graph LR
-A[App] --> B[Main]
-B --> C[VideoData]
-B --> D[CommentList]
-C --> C1[PlayVideo]
-C --> C2[VideoDetails]
-D --> D1[Comment]
-```
